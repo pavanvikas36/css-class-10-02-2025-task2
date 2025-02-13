@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* align-items: center; */
+            position: sticky;
+            top: 0;
+            z-index: 5;
+        }
+        .navbar1{
+            /* border: 1px solid black; */
+            /* width: 190px;
+            height: 10px;
+            gap: 20px; */
+            /* text-align: center; */
+            padding: 20px;
+            font-family: "Playwrite GB S", serif;
+            font-size: 1.5rem;
+        }
+        .navbar2{
+            /* border: 1px solid black; */
+            display: flex;
+            gap: 20px;
+            /* text-align: center; */
+            padding: 20px;
+            font-family: "Playwrite GB S", serif;
+            font-size: 1.5rem;
+        }
+        @media only screen and (min-width:851px){
+            .navbar1{
+                display: flex;
+            }
+        }
+        @media only screen and (min-width:421px) and (max-width:850px){
+            .navbar1{
+                /* border: 1px solid black; */
+                /* width: 190px;
+                height: 10px;
+                gap: 20px; */
+                /* text-align: center; */
+                padding: 20px;
+                font-family: "Playwrite GB S", serif;
+                font-size: 1rem;
+            }
+            /* .navbar2{
+                display: none;
+            } */
+            .page{
+                display: flex;
+                flex-direction: column;
+            }
+            .page2{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        @media only screen and (min-width: 320px) and (max-width:420px){
+            .navbar1{
+                font-size: 1rem;
+            }
+            .navbar2{
+                display: none;
+            }
+            .page{
+                display: flex;
+                flex-direction: column;
+            }
+            .page2{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        /* .header1{
+            width: 100%;
+        } */
+        .header2{
+            padding: 30px;
+            background-image: url(southfood.jpg);
+            /* width: 100%; */
+            height: 100vh;
+            display: flex;
+            align-items: end;
+            font-size: 3rem;
+            font-family: "Playwrite GB S", serif;
+        }
+        .page{
+            /* border: 2px solid blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            font-family: "Playwrite GB S", serif;
+            padding: 120px;
+            text-align: justify;
+        }
+        /* .content1{
+            border: 1px solid black;
+            background: gray;
+            width: 100%;
+        } */
+        /* .content2{
+            border: 1px solid black;
+            background: gray;
+        } */
+        .page2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            font-family: "Playwrite GB S", serif;
+            padding: 120px;
+            text-align: justify;
+        }
+        /* .content2-a{
+            border: 1px solid black;
+            background: gray;
+        }  */
+        /* .content2-b{
+            border: 1px solid black;
+            background: gray;
+        } */
+        .contact{
+            font-family: "Playwrite GB S", serif;
+            padding:70px;
+        } 
+        .form{
+            height: 20vh;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="navbar1">
+            <div>Restaurent and Catring</div>
+        </div>
+        <div class="navbar2">
+            <div>Menu</div>
+            <div>About</div>
+            <div>Contact</div>
+        </div>
+    </div>
+
+    <!-- header -->
+
+    <div class="header">
+        <div>
+            <!-- <img src="southfood.jpg" alt="" class="header1"> -->
+        </div>
+        <div class="header2">Chef's Table & Tasting Menu</div>
+    </div>
+    <br>
+    <br>
+
+
+    <!-- Page Content 1 -->
+
+    <div class="page">
+        <div class="content1">
+            <img src="idlie.jpg" alt="">
+        </div>
+        <div class="content2">
+            <h1>About Catering</h1>
+            <h3>Tradition since 1889</h3>
+            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+
+    <!-- Page Content 2 -->
+
+    <div class="page2">
+        <div class="content2-a">
+            <h1>Our Menu</h1>
+            <h3>Bread Basket</h3>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h3>Honey Almond Granola with Fruits</h3>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <h3>Belgian Waffle</h3>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+            <h3>Scrambled eggs</h3>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <h3>Blueberry Pancakes</h3><p>With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="content2-b">
+            <img src="vegfood.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+
+
+    <div class="contact">
+        <h1>Contact</h1>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        <p>Catering Service, 42nd Living St, 43043 New York, NY</p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <div class="form">
+            <form action="">
+                <input type="text" name="" id="" placeholder="Name">
+            </form>
+            <form action="">
+                <input type="count" name="" id="" placeholder="How Many Peoples">
+            </form>
+            <form action="">
+                <input type="Date" name="" id="" placeholder="Date">
+            </form>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Message/Special Required">
+            </form>
+        </div>
+        <Button>Send Message</Button>
+    </div>
+</body>
+</html>
